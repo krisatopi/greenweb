@@ -1,0 +1,163 @@
+body{
+    background: rgb(0,36,14);
+    background: linear-gradient(28deg, rgba(0,36,14,1) 2%, rgba(121,52,9,1) 15%, rgba(6,153,112,1) 42%, rgba(219,255,0,1) 100%);
+    /* Kjo ben qe te behet backgroundi me linear gradient per me shume ke ktu */
+    min-height: 100vh;
+    /*  kjo e ben height sa height i paisjes ku hapet */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover; 
+}
+}
+a{
+    text-decoration: none;
+    color: red;
+}
+h2{
+    margin-top: 200px;
+    text-align: center;
+    text-decoration: aqua;
+    color: blue;
+    text-transform: uppercase;
+    font-size: 34px;
+}
+#container{
+    background-color: white;
+    width: 100%;
+    height: 200px;
+    background-image: url(img/abstract.webp);
+    background-repeat: no-repeat;
+}
+#nav{
+    width: 100%;
+    padding: 10px;
+}
+img{
+    border-radius: 40%;
+    margin-left: 50px;
+    margin-top: 50px;
+    box-shadow: 2px 2px 5px 3px grey;
+}
+img:hover{
+    box-shadow: 2px 3px 7px 5px rgb(12, 37, 1);
+}
+ul{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: flex-end;
+    list-style: none;
+    color: red;
+    margin-top: -100px; 
+}
+ul li{
+    font-weight: 500; 
+    font-size: 25px;
+    margin-left: 85px;
+    font-family: sans-serif;
+    border: 3px solid black;
+    padding: 15px;
+    margin-right: 50px;
+    box-shadow: 2px 2px 5px 3px #8A1313;
+    border-radius: 10px;
+}
+ul li:hover{
+    background-color: aqua;
+    
+    font-weight: 800;
+}
+#main{
+    width: 100%;
+    float: right;
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+
+}
+.p1{
+    width: 45%;
+    margin-left: 90px;
+    margin-top: 90px;
+    font-family: cursive;
+}
+.p2{
+    width: 45%;
+    font-family: cursive;
+    margin-left: 580px;
+    margin-top: 100px;
+}
+#img1{
+    width: 400px;
+    height: 250px;
+    margin-left: 800px;
+    margin-top: -150px;
+    border-radius: 20%;
+    margin-bottom: 70px;    
+
+}
+#img2{
+    width: 400px;
+    height: 250px;
+    float: right;
+    margin-left: 80px;
+    margin-top: -190px;
+    border-radius: 20%;
+}
+.mytable{
+    margin-left: 100px;
+    border-collapse: collapse;
+    border: 2px solid black;
+   
+}
+thead{
+    border: 2px solid black;
+    font-size: 18px;
+}
+td{
+    padding: 15px; 
+    border: 2px solid black;
+    font-size: 16px;
+}
+h3{
+    margin-top: 500px;
+    font-size: large;
+    margin-left: 100px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif
+}
+h4{
+    margin-left: 100px;
+    font-size: x-large;
+    font-family: initial;
+    font-weight: 900;
+}
+.myform{
+    margin-left: 100px;
+    font-size: 20px;
+    color: white;
+}
+.myform input{
+    padding: 5px;
+}
+.formgrup{
+    margin: 10px;
+}
+
+.buton{
+    margin-left: 10px;
+    border: 2px solid blue;
+    width: 10%;
+    height: 30px;
+    font-size: 16px;
+    -webkit-transition-duration: 0.4s; 
+    transition-duration: 0.4s;
+}
+.buton:hover{
+    background-color: aquamarine;
+    color: blue;
+    font-size: 18px;
+}
+footer{
+    font-size: 36px;
+    text-align: center;
+}
